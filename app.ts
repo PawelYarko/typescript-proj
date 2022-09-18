@@ -31,3 +31,16 @@ anything = {};
 let some:unknown;some = 'Text';
 let str: string;
 if (typeof some === 'string') {  str = some;}
+
+let person: [string, number];
+person = ['Max', 21];
+
+enum Load {LOADING, READY};
+const page { load: Load.READY}
+if (page.load === Load.LOADING) {  
+    console.log('Страница загружается');
+}
+if (page.load === Load.READY) {  
+    console.log('Страница загружена');}
+
+
